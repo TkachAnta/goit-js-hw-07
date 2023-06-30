@@ -18,7 +18,7 @@ galleryContainer.innerHTML = itemsMarkup;
 
 var lightbox = new SimpleLightbox(".gallery a", {
     captionDelay: 250,
-    captionData: 'all',
-});
+    captionsData: "alt",
+  });
  
 
